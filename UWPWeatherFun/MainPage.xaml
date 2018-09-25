@@ -8,7 +8,11 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
-
-    </Grid>
+    <StackPanel Background="HotPink">
+        <Button Content="Get Weather" Click="Button_Click" />
+        <TextBlock Name="ResultTextBlock" />
+        <Image Name="resultsImage" Width="200" Height="200" >
+            </Image>
+    </StackPanel>
+    
 </Page>
